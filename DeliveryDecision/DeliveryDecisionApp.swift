@@ -11,7 +11,7 @@ import SwiftUI
 struct DeliveryDecisionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(SelectedMenuList: SelectedMenu())
         }
     }
 }

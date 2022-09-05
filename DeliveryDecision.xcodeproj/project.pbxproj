@@ -14,6 +14,9 @@
 		3C13965728C5D1D90035BDE4 /* DeliveryDecisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13965628C5D1D90035BDE4 /* DeliveryDecisionTests.swift */; };
 		3C13966128C5D1D90035BDE4 /* DeliveryDecisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13966028C5D1D90035BDE4 /* DeliveryDecisionUITests.swift */; };
 		3C13966328C5D1D90035BDE4 /* DeliveryDecisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13966228C5D1D90035BDE4 /* DeliveryDecisionUITestsLaunchTests.swift */; };
+		3C13967028C5D2330035BDE4 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13966F28C5D2330035BDE4 /* ColorExtension.swift */; };
+		3C13967228C5D2540035BDE4 /* RandomDecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13967128C5D2540035BDE4 /* RandomDecisionView.swift */; };
+		3C13967428C5D2860035BDE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C13967328C5D2860035BDE4 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C13964228C5D1D70035BDE4 /* DeliveryDecision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryDecision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C13964228C5D1D70035BDE4 /* 지금 뭐 먹지?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "지금 뭐 먹지?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C13964528C5D1D70035BDE4 /* DeliveryDecisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDecisionApp.swift; sourceTree = "<group>"; };
 		3C13964728C5D1D70035BDE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C13964928C5D1D80035BDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +47,9 @@
 		3C13965C28C5D1D90035BDE4 /* DeliveryDecisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryDecisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C13966028C5D1D90035BDE4 /* DeliveryDecisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDecisionUITests.swift; sourceTree = "<group>"; };
 		3C13966228C5D1D90035BDE4 /* DeliveryDecisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDecisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C13966F28C5D2330035BDE4 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3C13967128C5D2540035BDE4 /* RandomDecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDecisionView.swift; sourceTree = "<group>"; };
+		3C13967328C5D2860035BDE4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,7 @@
 		3C13964328C5D1D70035BDE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C13964228C5D1D70035BDE4 /* DeliveryDecision.app */,
+				3C13964228C5D1D70035BDE4 /* 지금 뭐 먹지?.app */,
 				3C13965228C5D1D90035BDE4 /* DeliveryDecisionTests.xctest */,
 				3C13965C28C5D1D90035BDE4 /* DeliveryDecisionUITests.xctest */,
 			);
@@ -98,6 +104,9 @@
 				3C13964728C5D1D70035BDE4 /* ContentView.swift */,
 				3C13964928C5D1D80035BDE4 /* Assets.xcassets */,
 				3C13964B28C5D1D80035BDE4 /* Preview Content */,
+				3C13966F28C5D2330035BDE4 /* ColorExtension.swift */,
+				3C13967128C5D2540035BDE4 /* RandomDecisionView.swift */,
+				3C13967328C5D2860035BDE4 /* Launch Screen.storyboard */,
 			);
 			path = DeliveryDecision;
 			sourceTree = "<group>";
@@ -144,7 +153,7 @@
 			);
 			name = DeliveryDecision;
 			productName = DeliveryDecision;
-			productReference = 3C13964228C5D1D70035BDE4 /* DeliveryDecision.app */;
+			productReference = 3C13964228C5D1D70035BDE4 /* 지금 뭐 먹지?.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3C13965128C5D1D90035BDE4 /* DeliveryDecisionTests */ = {
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C13967428C5D2860035BDE4 /* Launch Screen.storyboard in Resources */,
 				3C13964D28C5D1D80035BDE4 /* Preview Assets.xcassets in Resources */,
 				3C13964A28C5D1D80035BDE4 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C13967028C5D2330035BDE4 /* ColorExtension.swift in Sources */,
+				3C13967228C5D2540035BDE4 /* RandomDecisionView.swift in Sources */,
 				3C13964828C5D1D70035BDE4 /* ContentView.swift in Sources */,
 				3C13964628C5D1D70035BDE4 /* DeliveryDecisionApp.swift in Sources */,
 			);
@@ -423,18 +435,20 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.DeliveryDecision;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "지금 뭐 먹지?";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,18 +466,20 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.DeliveryDecision;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "지금 뭐 먹지?";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
